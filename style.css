@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Reddit+Mono:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+body {
+  font-family: "Reddit Mono", monospace;
+}
+.ona {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  align-items: center;
+}
+.ona2 {
+  display: flex;
+  gap: 150px;
+}
+.ona2 a {
+  text-decoration: none;
+  color: #222222;
+}
+.ona2 a:hover {
+  color: #de2e54;
+}
+.ona3 button {
+  width: 189px;
+  height: 49px;
+  background: #ffffff;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  padding: 12px, 24px, 12px, 24px;
+  cursor: pointer;
+}
+.ona3 button:hover {
+  background-color: #de2e54;
+  color: white;
+}
+
+.hero {
+  background-image: url(./bg.png);
+  background-size: cover;
+  height: 550px;
+}
+.ota {
+  display: flex;
+  justify-content: space-between;
+  padding: 68px 0;
+}
+.ota1 h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700px;
+}
+.ota1 button {
+  width: 189px;
+  height: 49px;
+  background: #de2e54cc;
+  color: white;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+.ota1 button:hover {
+  background-color: black;
+  color: white;
+}
+.q {
+  font-size: 36px;
+  font-weight: 700px;
+  text-align: center;
+  margin-top: 70px;
+}
+.aka1 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+  align-items: center;
+}
+.w p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.w h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.e p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.e h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.aka2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 80px;
+  align-items: center;
+}
+.contact {
+  background-color: #0eb4c1;
+  background-size: cover;
+  height: 699px;
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 400px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.uka2 {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  height: 450px;
+  background-color: white;
+}
+
+.uka2 input {
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+}
+
+.uka2 button {
+  width: 100%;
+  height: 60px;
+}
+
+.contact-parent {
+  gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: black;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+}
